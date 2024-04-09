@@ -15,15 +15,18 @@
 }
 
 .projectList {
+    margin: 0 auto;
     width: 70vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    justify-content: center;
+    /* Add this line */
 }
 
-/* MENU ITEM STYLING */
 
+/* MENU ITEM STYLING */
 .projectItem {
     border-radius: 15px;
     width: 300px;

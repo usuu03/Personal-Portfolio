@@ -1,8 +1,6 @@
 import React from "react";
-import helpingHand from "../assets/Helping_hand.jpg";
-import flightPrice from "../assets/flight_price.jpeg";
-import realmQuest from "../assets/realmQuest.png";
 import ProjectItem from "../components/ProjectItem";
+import { projectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
 import "../styles/Projects.css";
 
@@ -11,9 +9,11 @@ export default function Projects() {
     <div className="projects">
       <h1>My Projects</h1>
       <div className="projectList">
-        <ProjectItem name="Realm Quest" image={realmQuest} />
-        <ProjectItem name="Crowdfunding Platform" image={helpingHand} />
-        <ProjectItem name="Flight Price Tracker" image={flightPrice} />
+        {projectList.map((project, idx) => {
+          return (
+            <ProjectItem name={project.name} image={project.image} id={idx} />
+          );
+        })}
       </div>
     </div>
   );
