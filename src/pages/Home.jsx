@@ -9,7 +9,10 @@ export default function Home() {
       <div className="about">
         <h2>Hi, my name is Usunobu </h2>
         <div className="prompt">
-          <p>A student with a passion for coding and creating.</p>
+          <p>
+            A Computer Science undergraduate with a passion for programming and
+            creating.
+          </p>
           <Link to="https://www.linkedin.com/in/usunobu-edeaghe-omijie-86708519b/">
             <LinkedIn />
           </Link>
