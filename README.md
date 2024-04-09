@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for a personal portfolio website developed by myself. The website showcases various components including a homepage, an experience timeline, project display, and individual project items. Below is a brief overview of the components included in this repository:
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+### Home Component
 
-### `npm start`
+- **File**: `Home.jsx`
+- **Description**: The Home component displays information about the portfolio owner, including their name, a brief introduction, and links to their LinkedIn, email, and GitHub profiles. It also lists the owner's skills in front-end development, back-end development, and programming languages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Experience Component
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **File**: `Experience.jsx`
+- **Description**: The Experience component presents a timeline of the portfolio owner's educational and professional experiences. It includes details such as institution/company names, locations, dates, and roles/responsibilities.
 
-### `npm test`
+### ProjectDisplay Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **File**: `ProjectDisplay.jsx`
+- **Description**: The ProjectDisplay component is responsible for displaying individual projects. It showcases project details such as name, image, skills utilized, and provides links to the project's GitHub repository and demo (if available).
 
-### `npm run build`
+### ProjectItem Component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **File**: `ProjectItem.jsx`
+- **Description**: The ProjectItem component represents an individual project item displayed on the homepage or project list. It contains an image and name of the project and links to the respective project details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ProjectList Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **File**: `ProjectList.jsx`
+- **Description**: This file contains an array of project objects, each representing a project featured on the portfolio website. Each project object includes properties such as name, image, skills, GitHub URL, and demo URL.
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The portfolio website is deployed and accessible through Vercel at the following URL: [Usunobu Edeaghe Portfolio Site](https://usuedeagheportfoliosite.vercel.app)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the code and make any modifications as needed. If you have any questions or suggestions, please contact Usunobu Edeaghe.
