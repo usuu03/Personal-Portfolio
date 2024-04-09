@@ -33,4 +33,4 @@ This repository contains the code for a personal portfolio website developed by 
 
 The portfolio website is deployed and accessible through Vercel at the following URL: [Usunobu Edeaghe Portfolio Site](https://usuedeagheportfoliosite.vercel.app)
 
-Feel free to explore the code and make any modifications as needed. If you have any questions or suggestions, please contact Usunobu Edeaghe.
+Feel free to explore the code and make any modifications as needed. If you have any questions or suggestions, please contact me.
